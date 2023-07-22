@@ -1,0 +1,213 @@
+/* Lato */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+.fz-16{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato';
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+
+
+.fz-20{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Lato';
+}
+
+
+.fz-16-r{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    line-height: 22.4px;
+    color: #FFFFFF;
+}
+
+
+.fz-24{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Lato';   
+}
+
+
+.fz-14{
+    font-size: 14px;
+    font-weight: 400;
+    color: #717171;
+    font-family: 'Lato';
+}
+
+.fz-14-subcribe{
+    font-size: 14px;
+    font-family: 'Lato';
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height:16.8px;
+}
+
+.fz-12{
+    font-size: 12px;
+    font-family: 'Lato';
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.fz-14-h{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Lato';
+    color: #222222;
+}
+
+
+
+
+.fz-32{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Lato';
+    color: rgba(34, 34, 34, 1);
+}
+
+
+.fz-16-p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(34, 34, 34, 1);
+    font-family: 'Lato';
+   line-height: 19.2px
+   ;    
+
+}
+
+
+.fz-20-p{
+    font-size: 20px;
+    font-weight: 700;
+    font-family:'Lato';
+    color:rgba(18, 18, 90, 1);
+}
+
+
+.fz-18-btn{
+    font-size: 18px;
+    font-family: 'Lato';
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+
+.fz-20-f{
+     font-size: 20px;
+     font-weight: 600;
+     font-family: 'Lato';
+     color: #12125A;
+}
+
+.fz-28-f{
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Lato';
+}
+
+
+.fz-16-f-btn{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Lato';
+    color: #155289;
+}
+
+
+.fz-22{
+    font-size: 22px;
+    font-family: 'Lato';
+    font-weight: 700;
+    color: #222222;
+}
+
+
+
+.fz-14-f{
+    font-size: 14px;
+    font-weight: 700;
+    font-family:'Latp';
+    color: #222222;
+}
+
+
+
+.fz-14-f-c{
+   font-size: 14px;
+   font-weight: 400;
+   color: #777777;
+   font-family: 'Lato';
+}
+
+
+
+.fz-20-Iec{
+    font-size: 20px;
+    font-weight: 700;
+    font-family:'Lato';
+    color: #222222;
+}
+
+
+
+
+/* Mobile Sscree start */
+@media screen and (max-width:480px) {
+    
+
+    /* Program section start */
+     .fz-14-p-m{
+          font-size: 14px;
+          font-weight: 700;
+          font-family: 'Lato';
+          color: #222222;
+     }
+
+     .fz-16-p-m{
+        font-size: 12px;
+          font-weight: 400;
+          font-family: 'Lato';
+          color: #222222;
+     }
+
+     .fz-12-p-m{
+        font-size: 12px;
+        font-weight: 700;
+        color: #12125A;
+        font-family: 'Lato';
+     }
+
+
+     .fz-10-btn-m{
+        font-size: 10px;
+        font-family: 'Lato';
+        font-weight: 500;
+        color: #FFFFFF;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+
+
+     /* Program section End */
+  
+
+
+}
+
+
+
+
+/* Mobile Sscree End */

@@ -1,0 +1,61 @@
+
+/*  */
+@media screen and (min-width:481px) and (max-width:778px) {
+    
+
+    /* Program section start */
+
+    .program-chil-width{
+        width: 100%;
+    }
+
+
+    .flex-wrap-p-secton{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+}
+
+
+/* for mobile */
+@media screen and (max-width : 480px) {
+    
+
+
+   .display-none-m{
+     display: none;
+   }
+
+
+    /* Program start */
+
+    .program-chil-width-m{
+        width: 100%;
+        
+    }
+
+    .px-m{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    /* Program End */
+
+}
+
+
+
+
+/* For responsive flex wrap */
+
+@media screen and (max-width:940px) {
+     
+ 
+    .responsive-cards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+}
