@@ -10,11 +10,11 @@ function Footer() {
                 <div className='mx-auto px-16 pt-5 max-w-[1280px] '>
 
 
-                    <div>
-                        <img src={footer} alt="" />
+                    <div className='footer-logo'>
+                        <img src={footer} alt=""  />
                     </div>
 
-                    <div className='flex justify-between    gap-5 py-10 text-white'>
+                    <div className='flex justify-between  footer-wrap  gap-5 py-10 text-white'>
                         <div className='text-left max-w-[360px]'>
                             <p className='fz-16'>An innovative institute dedicated to emerging careers, offers transformative courses designed to equip students with cutting-edge skills and industry-relevant knowledge</p>
 

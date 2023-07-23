@@ -59,3 +59,25 @@
 
 
 }
+
+
+
+
+/* Footer responisve  */
+
+@media screen and (max-width : 1013px) {
+    
+
+     .footer-wrap{
+        flex-wrap: wrap;
+        justify-content: center;
+     }
+
+
+     .footer-logo{
+        display: flex;
+        justify-content: center;
+     }
+
+
+}
