@@ -81,3 +81,43 @@
 
 
 }
+
+
+
+/* For tables start */
+
+
+@media screen and (max-width : 768px) {
+    .agreemencards{
+          display: flex;
+          flex-wrap: wrap;
+    }
+
+
+    .team-section-wrap{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+  }
+}
+
+
+/* For tables End */
+
+
+
+/* compaines section */
+
+@media screen and (max-width:989px) {
+     
+ 
+    .com-section-wrap{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+}
+
+
+/* compaines section */

@@ -6,6 +6,9 @@ import IECapprentice from './IECapprentice'
 import Enroll from './Enroll'
 import Month from './Month'
 import User from './User'
+import Agreement from './Agreement'
+import Companies from './Companies'
+import Team from './Team'
 
 function Home() {
   return (
@@ -16,7 +19,10 @@ function Home() {
      <IECapprentice></IECapprentice>
      <Month></Month>
      <Enroll></Enroll>
+     <Agreement></Agreement>
+     <Companies></Companies>
      <User></User>
+     <Team></Team>
     </>
 
   )

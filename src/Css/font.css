@@ -199,6 +199,52 @@
 
 
 
+.fz-26-month{
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Lato';
+    color: #FFFFFF;
+}
+
+
+.fz-16-month-2{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Lato';
+    color: #800B00;
+}
+
+.fz-28-month-card{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'Lato';
+    color: #FFFFFF;
+}
+
+
+.fz-18-month-card-p{
+    font-size: 18px;
+    font-family: 'Lato';
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+
+
+.fz-36{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Lato";
+    color: #222222;
+}
+
+
+.fz-20-team{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Lato';
+}
 
 /* Mobile Sscree start */
 @media screen and (max-width:480px) {

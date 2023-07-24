@@ -6,8 +6,9 @@
 
 /* Home css Start */
 
-.card-border{
-    border-top-left-radius: 50px;
+
+.hour-cards-color{
+    background-image: linear-gradient(to bottom, #2A2A75,#FF6D59);
 }
 
 
