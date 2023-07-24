@@ -4,7 +4,7 @@ function Program() {
   return (
     <>
       <section className='bg-[#FFFFFF] w-full'>
-        <div className=' py-16 max-w-[1280px] mx-auto px-m custom-m:px-16  '>
+        <div className=' py-20 mt-16 max-w-[1280px] mx-auto px-m custom-m:px-16  '>
  
   <div className='flex justify-between gap-20 items-center  flex-wrap-p-secton'>
 

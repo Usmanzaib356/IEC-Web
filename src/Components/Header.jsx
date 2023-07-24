@@ -32,7 +32,7 @@ function Header() {
   return (
 
     <>
-      <div className='w-full h-[74px] bg-[#FFFFFF] text-black'>
+      <div className='w-full h-[74px] bg-[#FFFFFF] text-black' id='scrol-button'>
         <div className=' mx-auto px-4  flex justify-between  items-center h-full'>
           <div className='text-[#00d8ff]'>
             <img src={logo} alt="" />

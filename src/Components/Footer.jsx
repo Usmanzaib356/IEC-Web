@@ -3,6 +3,7 @@ import footer from "../Images/footer.svg"
 import snapchat from "../Images/snapchat.svg"
 import twitter from "../Images/twitter.svg"
 import tiktok from "../Images/tiktok.svg"
+import arrow from "../Images/footerarrow.svg"
 function Footer() {
     return (
         <>
@@ -10,8 +11,17 @@ function Footer() {
                 <div className='mx-auto px-16 pt-5 max-w-[1280px] '>
 
 
-                    <div className='footer-logo'>
+                    <div className='footer-logo flex justify-between gap-10 items-center text-[#FFFFFF]'>
                         <img src={footer} alt=""  />
+
+                         <a href='#scrol-button' className='flex items-center fz-16-footer-btn gap-2'>
+                              Top
+
+                              <span className='bg-[#FFFFFF] rounded-[100%] py-3.5 px-3'>
+                                    <img src={arrow} alt="" />
+                              </span>
+                         </a>
+                          
                     </div>
 
                     <div className='flex justify-between  footer-wrap  gap-5 py-10 text-white'>

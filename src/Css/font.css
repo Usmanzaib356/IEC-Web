@@ -116,6 +116,7 @@
     font-size: 28px;
     font-weight: 700;
     font-family: 'Lato';
+    color: #222222;
 }
 
 
@@ -159,6 +160,41 @@
     font-weight: 700;
     font-family:'Lato';
     color: #222222;
+}
+
+
+.fz-16-footer-btn{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    color: #FFFFFF;
+}
+
+
+
+
+.fz-16-month{
+    font-size: 16px;
+    font-family: 'Lato';
+    font-weight: 400;
+    color: #222222;
+    list-style: 19.2px;
+}
+
+
+.fz-16-user{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro';
+    line-height: 20.11px;
+}
+
+
+.fz-18-user{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Lato';
+    color: #12125A;
 }
 
 
