@@ -179,7 +179,7 @@ function Footer() {
                             <img src={footer} alt="" className='w-[183px]' />
                         </div>
                         <div>
-                            <a href='#scrol-button' className='flex items-center fz-16-footer-btn gap-2'>
+                            <a href='#scrol-button-m' className='flex items-center fz-16-footer-btn gap-2'>
                                 <p className='fz-12-m-agreement'>Top</p>
 
                                 <span className='bg-[#FFFFFF] rounded-[100%] py-2.5 px-2'>
