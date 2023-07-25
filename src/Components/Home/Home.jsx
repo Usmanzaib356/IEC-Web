@@ -13,14 +13,14 @@ import Team from './Team'
 function Home() {
   return (
     <>
-     <Hero></Hero>
+     {/* <Hero></Hero> */}
      <Program></Program>
      <Featured></Featured>
      <IECapprentice></IECapprentice>
      <Month></Month>
      <Enroll></Enroll>
      <Agreement></Agreement>
-     <Companies></Companies>
+     {/* <Companies></Companies> */}
      <User></User>
      <Team></Team>
     </>

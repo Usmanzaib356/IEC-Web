@@ -32,7 +32,7 @@ function Header() {
   return (
 
     <>
-      <div className='w-full h-[74px] bg-[#FFFFFF] text-black' id='scrol-button'>
+      <div className='w-full h-[74px] bg-[#FFFFFF] text-black display-none-m' id='scrol-button' >
         <div className=' mx-auto px-4  flex justify-between  items-center h-full'>
           <div className='text-[#00d8ff]'>
             <img src={logo} alt="" />
@@ -204,6 +204,46 @@ function Header() {
 
         </div>
       </div>
+
+      {/* For Mobile */}
+      
+        <div className='px-m py-3 flex justify-between '>
+            <div>
+               <img src={logo} alt="" className='w-[121px]' />
+            </div>
+            <div>
+            <div className="relative">
+                  <button
+                    onClick={userbutton}
+                    className=" text-black flex items-center"
+                  >
+                    <img className="w-4 rounded-full" src={user} alt="user photo" />
+
+                    <span className="ml-1">
+                      {userdropdown ? (
+                        <img src={arrow} width={10} height={10} alt='arrow-icon' />
+                      ) : (
+                        <img src={arrow} width={10} height={10} alt='arrow-icon' />
+                      )}
+                    </span>
+
+                  </button>
+
+                  {userdropdown && (
+                    <div className="absolute z-10  right-10 items-start  mt-2 py-2 w-35  bg-white border rounded-md shadow-lg">
+                      {/* Dropdown items */}
+                      <a href="#" className="block px-4 py-2 text-gray-800 hover:bg-gray-200"> Web Development</a>
+                      <a href="#" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Icloud</a>
+                      <a href="#" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Hacking</a>
+                    </div>
+                  )}
+                </div>
+            </div>
+        </div>
+
+      {/* For Mobile */}
+
+
     </>
   );
 }

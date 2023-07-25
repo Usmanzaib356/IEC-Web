@@ -1,5 +1,6 @@
 import React from 'react'
 import home10 from "./image/home10.png"
+import team from "./image/team.png"
 function Team() {
   return (
      <>
@@ -8,8 +9,33 @@ function Team() {
            
      
               <div className='flex items-center team-section-wrap gap-10' >
-                  <div className='w-[50%]'>
-                     <img src={home10} alt="" />
+                  <div className='w-[50%] flex gap-3 items-center'>
+                     
+                     <div className=''>
+                        <img src={team} alt=""  />
+                        <img src={team} alt="" className='py-2'  />
+                        <img src={team} alt="" />
+                        <img src={team} alt="" className='py-2' />
+                        <img src={team} alt="" />
+                     </div>
+                     <div className=''>
+                        <img src={team} alt=""  />
+                        <img src={team} alt="" className='py-2'  />
+                        <img src={team} alt="" />
+                        <img src={team} alt="" className='py-2' />
+                        
+                     </div>
+
+                     <div className=''>
+                        <img src={team} alt=""  />
+                        <img src={team} alt="" className='py-2'  />
+                        <img src={team} alt="" />                        
+                     </div>
+                     <div className=''>
+                        <img src={team} alt=""  />
+                        <img src={team} alt="" className='py-2'  />
+                     </div>
+                     
                   </div>
 
                   <div className='w-[50%] items-center'>
