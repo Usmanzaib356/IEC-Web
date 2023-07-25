@@ -135,7 +135,9 @@
  /* for mobile */
 @media screen and (min-width : 500px) {
     
-
+  .display-none-desktop{
+     display: none;
+  }
  
  
  }

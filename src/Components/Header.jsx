@@ -32,7 +32,7 @@ function Header() {
   return (
 
     <>
-      <div className='w-full h-[74px] bg-[#FFFFFF] text-black display-none-m' id='scrol-button' >
+      <div className='w-full h-[74px]  bg-[#FFFFFF] text-black display-none-m' id='scrol-button' >
         <div className=' mx-auto px-4  flex justify-between  items-center h-full'>
           <div className='text-[#00d8ff]'>
             <img src={logo} alt="" />
@@ -207,9 +207,9 @@ function Header() {
 
       {/* For Mobile */}
       
-        <div className='px-m py-3 flex justify-between '>
+        <div className='px-m py-3 flex justify-between items-center  display-none-desktop'>
             <div>
-               <img src={logo} alt="" className='w-[121px]' />
+               <img src={logo} alt="" className='w-[180px]' />
             </div>
             <div>
             <div className="relative">
@@ -217,7 +217,7 @@ function Header() {
                     onClick={userbutton}
                     className=" text-black flex items-center"
                   >
-                    <img className="w-4 rounded-full" src={user} alt="user photo" />
+                    <img className="w-8 rounded-full" src={user} alt="user photo" />
 
                     <span className="ml-1">
                       {userdropdown ? (
