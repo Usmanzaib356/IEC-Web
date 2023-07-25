@@ -20,7 +20,7 @@ function Home() {
      <Month></Month>
      <Enroll></Enroll>
      <Agreement></Agreement>
-     {/* <Companies></Companies> */}
+     <Companies></Companies>
      <User></User>
      <Team></Team>
     </>

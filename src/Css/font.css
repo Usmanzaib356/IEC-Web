@@ -329,6 +329,74 @@
    }
 
 
+   .fz-12-m-enroll{
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Lato';
+    color: #12125A;
+
+   }
+
+
+  .fz-12-m-agreement{
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Lato';
+  }
+
+
+  .fz-12-m-user{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Lato';
+    line-height: 14.4px;
+  }
+
+  .fz-13-m-team{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Lato';
+    line-height:15.6px;
+  }
+
+
+  .fz-12-m-teambtn{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.4px;
+    font-family: 'Lato';
+  }
+
+
+   .fz-12-m-r{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    color: #FFFFFF;
+
+   }
+
+
+   .fz-14-m-f{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'lato';
+   }
+
+   .fz-12-m-compaines{
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Lato';
+    color: #12125A;
+
+   }
+
+   .fz-14-m-compaines{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Lato';
+   }
+
 }
 
 

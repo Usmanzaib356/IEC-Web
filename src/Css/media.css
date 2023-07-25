@@ -1,16 +1,15 @@
-
 /*  */
 @media screen and (min-width:481px) and (max-width:778px) {
-    
+
 
     /* Program section start */
 
-    .program-chil-width{
+    .program-chil-width {
         width: 100%;
     }
 
 
-    .flex-wrap-p-secton{
+    .flex-wrap-p-secton {
         justify-content: center;
         flex-wrap: wrap;
     }
@@ -23,9 +22,9 @@
 /* For responsive flex wrap */
 
 @media screen and (max-width:940px) {
-     
- 
-    .responsive-cards{
+
+
+    .responsive-cards {
         flex-wrap: wrap;
         justify-content: center;
     }
@@ -39,18 +38,18 @@
 /* Footer responisve  */
 
 @media screen and (max-width : 1013px) {
-    
 
-     .footer-wrap{
+
+    .footer-wrap {
         flex-wrap: wrap;
         justify-content: center;
-     }
+    }
 
 
-     .footer-logo{
+    .footer-logo {
         display: flex;
         justify-content: center;
-     }
+    }
 
 
 }
@@ -61,17 +60,17 @@
 
 
 @media screen and (max-width : 768px) {
-    .agreemencards{
-          display: flex;
-          flex-wrap: wrap;
+    .agreemencards {
+        display: flex;
+        flex-wrap: wrap;
     }
 
 
-    .team-section-wrap{
+    .team-section-wrap {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-  }
+    }
 }
 
 
@@ -82,11 +81,13 @@
 /* compaines section */
 
 @media screen and (max-width:989px) {
-     
- 
-    .com-section-wrap{
+
+
+    .com-section-wrap {
         flex-wrap: wrap;
         justify-content: center;
+
+        align-items: center;
     }
 
 
@@ -103,41 +104,116 @@
 
 /* for mobile */
 @media screen and (max-width : 480px) {
-    
 
 
-    .display-none-m{
-      display: none;
+    /* Mobile padding left right */
+
+    .px-m {
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
- 
- 
-     /* Program start */
- 
-     .program-chil-width-m{
-         width: 100%;
-         
+
+
+    /* Padding top bottom */
+
+    .py-m{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+
+    .display-none-m {
+        display: none;
+    }
+
+
+    /* Program start */
+
+    .program-chil-width-m {
+        width: 100%;
+
+    }
+
+
+
+    /* Program End */
+
+
+
+   /* Enroll  section */
+
+     .Enroll-card-logo-m img{
+        width: 32px;
      }
- 
-     .px-m{
-         padding-left: 1rem;
-         padding-right: 1rem;
+
+     .Enroll-card-border-m{
+            
+        border-top-left-radius:30px;
      }
+       
+
+      /* Enroll section */
+
+
+      /* Agreement cards */
  
-     /* Program End */
+          .Agreement-cards-m-logo img{
+            width: 32px;
+          }
+
+      /* Agreement cards */
+
+
+      /* User section */
+
+  
+        .user-card-m-logo{
+            width: 60px;
+        }
+
+        .user-card-m-link{
+            width: 32px;
+        }
+
+        .user-card-m-link-2{
+            width: 42px;
+        }
+
+      /* User section */
+
+            /* Footer Section */
+
+              .footer-logo-m{
+                width: 183px;
+              }
+             
+            /* Footer Section */
+
+
+       /* Companies Section */
  
- }
+         .companies-wrap-cards{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+         }
+     
+       /* Companies Section */
+
+
+}
 
 
 
 
 
 
- /* for mobile */
+/* for mobile */
 @media screen and (min-width : 481px) {
-    
-  .display-none-desktop{
-     display: none;
-  }
- 
- 
- }
+
+    .display-none-desktop {
+        display: none;
+    }
+
+
+}

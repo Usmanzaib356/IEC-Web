@@ -4,11 +4,11 @@ function Month() {
     return (
         <>
             <section className='bg-full bg-[#EFEFFF]'>
-                <div className=' py-16 w-full max-w-[1280px] mx-auto px-m custom-m:px-16'>
+                <div className=' custom-m:py-16 custom-w:py-8 w-full max-w-[1280px] mx-auto px-m custom-m:px-16'>
 
-                    <div className='w-[70%]'>
-                        <h3 className='fz-28-f'>IEC Apprenticeship Journey</h3>
-                        <p className='fz-16-month'>Embark on an extraordinary IEC Apprenticeship journey, where you'll surpass average tech talent, demonstrating exceptional performance and industry-relevant expertise.</p>
+                    <div className=' custom-m:w-[70%] custom-w:w-[full]'>
+                        <h3 className='fz-28-f fz-14-m-featured'>IEC Apprenticeship Journey</h3>
+                        <p className='fz-16-month fz-12-m-featured custom-m:py-0 custom-w:py-2'>Embark on an extraordinary IEC Apprenticeship journey, where you'll surpass average tech talent, demonstrating exceptional performance and industry-relevant expertise.</p>
                     </div>
 
 
