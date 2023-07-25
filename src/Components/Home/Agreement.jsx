@@ -9,7 +9,7 @@ function Agreement() {
           <h1 className='fz-28-f pb-10'>Learn, Earn and Contribute Agreement</h1>
          
 
-       <div className=' flex  pb-5  justify-center  agreemencards gap-5 '>
+       <div className=' flex  pb-10  justify-center  agreemencards gap-5 '>
 
                <div className='py-3 px-4 bg-[#FFFFFF] w-[560px] '>
                         <span className='flex items-center gap-3'>

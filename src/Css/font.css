@@ -250,7 +250,6 @@
 @media screen and (max-width:480px) {
     
 
-    /* Program section start */
      .fz-14-p-m{
           font-size: 14px;
           font-weight: 700;
@@ -283,8 +282,51 @@
     }
 
 
-     /* Program section End */
   
+     .fz-14-m-featured{
+        font-size: 14px;
+        font-weight: 700;
+        font-family: 'Lato';
+        line-height: 
+        16.8px;
+     }
+   
+
+       
+     .fz-12-m-featured{
+        font-size: 12px;
+        font-weight: 400;
+        font-family: 'Lato';
+        line-height: 14.4px ;
+     }
+
+     .fz-13-m{
+        font-size: 13px;
+        font-weight: 700;
+        font-family: 'Lato';
+
+     }
+
+     .fz-11-m{
+        font-size: 11px;
+        font-weight: 400;
+        font-family: 'Lato';
+        line-height: 13.2px;
+     }
+
+   .fz-10-m{
+    font-size: 10px;
+    font-weight: 700;
+    font-family: 'Lato';
+
+   }
+
+   .fz-10-m-f-c{
+    font-size: 10px;
+    font-weight: 400;
+    font-family: 'Lato';
+    color: #777777;
+   }
 
 
 }

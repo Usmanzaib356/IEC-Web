@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import logo from "../Images/logo.svg";
 import user from "../Images/userpic.png";
 import arrow from "../Images/down-arrow.svg";
+import moblogo from "../Images/moblogo.svg";
 
 function Header() {
 

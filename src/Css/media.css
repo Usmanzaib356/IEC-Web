@@ -102,7 +102,7 @@
 
 
 /* for mobile */
-@media screen and (max-width : 500px) {
+@media screen and (max-width : 480px) {
     
 
 
@@ -133,7 +133,7 @@
 
 
  /* for mobile */
-@media screen and (min-width : 500px) {
+@media screen and (min-width : 481px) {
     
   .display-none-desktop{
      display: none;
