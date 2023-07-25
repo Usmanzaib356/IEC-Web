@@ -397,6 +397,16 @@
     font-family: 'Lato';
    }
 
+   
+   .fz-12-m-month-red{
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Lato';
+    color: #800B00
+    ;
+
+   }
+
 }
 
 
