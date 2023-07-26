@@ -97,7 +97,7 @@ function Month() {
 
                         <div className='w-[154px]  ps-2  py-2'>
 
-                            <div className='bg-[#12125A]  items-center flex  justify-center w-[51px] h-[51px] rounded-[100%]'>
+                            <div className='bg-[#12125A]  items-center flex  justify-center w-[51px] h-[51px] rounded-[100%]'>z
                                 <h3 className='fz-26-month'>1</h3>
                             </div>
 

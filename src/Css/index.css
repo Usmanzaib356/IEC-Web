@@ -14,4 +14,9 @@
 
 
 
+html {
+    scroll-behavior: smooth;
+  }
+  
+
 /* Home css End */
