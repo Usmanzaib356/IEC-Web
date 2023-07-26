@@ -18,7 +18,7 @@ function Companies() {
 
                             <div className='flex custom-m:gap-5 custom-w:gap-2 companies-wrap-cards '>
 
-                                <div className='w-[220px]   ps-2  py-2 '>
+                                <div className='w-[220px]  border-container-com  ps-3 py-2 '>
 
 
                                     <h4 className='fz-20 py-1 mt-2  fz-14-m-compaines'>Taught By The Best</h4>
@@ -27,7 +27,7 @@ function Companies() {
 
                                 </div>
 
-                                <div className='w-[220px]   ps-2  py-2 '>
+                                <div className='w-[220px] border-container-com   ps-3  py-2 '>
 
 
                                     <h4 className='fz-20 py-1 mt-2  fz-14-m-compaines'>Taught By The Best</h4>
@@ -40,7 +40,7 @@ function Companies() {
 
                             <div className='flex custom-m:gap-5 custom-w:gap-2 companies-wrap-cards '>
 
-                                <div className='w-[220px]   ps-2  py-2 '>
+                                <div className='w-[220px]  border-container-com ps-3  py-2 '>
 
 
                                     <h4 className='fz-20 py-1 mt-2  fz-14-m-compaines'>Taught By The Best</h4>
@@ -49,7 +49,7 @@ function Companies() {
 
                                 </div>
 
-                                <div className='w-[220px]   ps-2  py-2 '>
+                                <div className='w-[220px]  border-container-com first-letter: ps-3  py-2 '>
 
 
                                     <h4 className='fz-20 py-1 mt-2  fz-14-m-compaines'>Taught By The Best</h4>

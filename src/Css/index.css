@@ -15,8 +15,90 @@
 
 
 html {
+    
     scroll-behavior: smooth;
+
   }
+
+
+
+
   
+@layer utilities {
+  @variants responsive {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+  }
+}
+
+
+.border-container {
+  position: relative;
+  
+}
+
+.border-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  height: 30%;
+  border-left: 3px solid #12125A;
+  z-index: 2
+}
+
+.border-container::after {
+  content: "";
+  position: absolute;
+  top: 30%;
+  left: 0%;
+  
+  height: 60%;
+  border-left: 1px dashed #155289    ;
+  z-index: 1; 
+}
+  
+
+
+
+
+
+
+
+.border-container-com {
+  position: relative;
+  
+}
+
+.border-container-com::before {
+  content: "";
+  position: absolute;
+  top: 25px;
+  left: 0;
+  
+  height: 30%;
+  border-left: 3px solid #12125A;
+  z-index: 3
+}
+
+.border-container-com::after {
+  content: "";
+  position: absolute;
+  top: 30%;
+  left: 0%;
+  
+  height: 65%;
+  border-left: 1px dashed #155289    ;
+  z-index: 1; 
+}
 
 /* Home css End */
