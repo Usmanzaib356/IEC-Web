@@ -7,7 +7,7 @@ function Main() {
     <div className="  md:h-screen   max-w-[1440px] max-h-[700px] mx-auto">
       <div className=" bg-slate-200 h-5/6">
 
-        <div className={`relative h-full  bg-[#12125A] z-10  `}  >
+        <div className={`relative h-full  bg-[#12125A] z-0  `}  >
           <img src={bg1}  className="absolute h-full w-full  opacity-20"/>
           <div className={`    relative w-full h-full  py-4   `} >
             
