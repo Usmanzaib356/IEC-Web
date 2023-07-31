@@ -4,8 +4,8 @@ function Agreement() {
   return (
     <>
      <section className='bg-[#EFEFFF] max-w-[1440px] mx-auto w-full '>
-       <div className='w-4/5  mx-auto py-10 '>
-          <h1 className='lg:text-[28px] font-bold'>Learn, Earn and Contribute Agreement</h1>
+       <div className='md:w-4/5  mx-auto py-10 '>
+          <h1 className='text-center md:text-left lg:text-[28px] font-bold'>Learn, Earn and Contribute Agreement</h1>
 <div className="py-5 flex flex-wrap  ">
   <div className="w-full md:w-1/2   p-3 rounded-lg  ">
     <div className="striped-border h-full  flex  items-start rounded-lg  p-3 bg-white">

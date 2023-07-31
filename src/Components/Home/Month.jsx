@@ -96,7 +96,7 @@ function Month() {
 
 
 
-                <div className='flex justify-center w-full  lg:w-2/4 my-4  md:my-8 gap-1 md:gap-3 p-3  items-center bg-white text-white rounded-lg '>
+                <div className='flex justify-center md:items-center w-full  lg:w-2/4 my-4  md:my-8 gap-1 md:gap-3 p-3   bg-white text-white rounded-lg '>
                     <div className=' flex-grow   flex-1 w-1/3 rounded-lg text-center  py-5 md:py-9 bg-gradient-to-b from-[#332D74] to-[#F76B5B]'>
                         <h4 className='text-sm md:text-xl  xl:text-[28px] font-bold xl:font-semibold'>80 hrs</h4>
                         <p className='text-[11px] md:text-sm xl:text-lg'>PD Sessions</p>
