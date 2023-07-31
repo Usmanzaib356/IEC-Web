@@ -4,7 +4,7 @@ function Companies() {
     return (
         <>
             <section className='bg-[#FFFFFF] '>
-                <div className='max-w-[1280px] mx-auto px-m custom-m:px-16 custom-m:py-16 custom-w:py-8'>
+                <div className='max-w-[1440px] mx-auto px-m custom-m:px-16 custom-m:py-16 custom-w:py-8'>
 
 
                     <div className='flex gap-10 justify-center  items-center com-section-wrap '>

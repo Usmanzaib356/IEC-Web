@@ -5,7 +5,7 @@ function Team() {
   return (
      <>
        <section className='bg-[#FFFFFF]'>
-            <div className='max-w-[1280px] mx-auto px-m custom-m:px-16 custom-m:py-16 custom-w:py-8'>
+            <div className='max-w-[1440px] mx-auto px-m custom-m:px-16 custom-m:py-16 custom-w:py-8'>
            
      
               <div className='flex items-center justify-center team-section-wrap gap-10' >

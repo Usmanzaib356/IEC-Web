@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Home3 from "./image/home3.svg"
 function IECapprentice() {
 
@@ -10,12 +10,12 @@ function IECapprentice() {
     <>
       <section >
 
-        <div className='w-full' style={divStyle}>
+        <div className='w-full' >
 
-          <div className='custom-m:py-16  custom-w:py-8  max-w-[1280px] mx-auto  custom-m:px-16 '>
+          <div className=' custom-m:py-16  custom-w:py-8  max-w-[1440px] mx-auto  custom-m:px-16 ' style={divStyle}>
             <div className='text-center '>
               <h3 className='fz-32 fz-14-m-featured '>What is IEC Apprentice Program?</h3>
-              <p className='fz-16-p px-10 py-1 fz-12-m-featured'>Unlock your potential and advance your career through the IEC Apprenticeship Program, offering practical skills, industry exposure, and expert guidance for success in today's competitive job market. IEC Apprenticeship program is all about</p>
+              <p className='fz-16-p px-10 py-1 fz-12-m-featured'>Unlock your potential and advance your career through the IEC Apprenticeship Program, offering practical skills, industry exposure, and expert guidance for success in today&apos;s competitive job market. IEC Apprenticeship program is all about</p>
             </div>
           </div>
 

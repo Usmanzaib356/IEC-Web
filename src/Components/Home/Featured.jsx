@@ -4,7 +4,7 @@ function Featured() {
     return (
         <>
             <section className='bg-[#EFEFFF] w-full'>
-                <div className='custom-m:py-10 custom-w:pt-8 max-w-[1280px] items-center  mx-auto custom-m:px-16 px-m'>
+                <div className='custom-m:py-10 custom-w:pt-8 max-w-[1440px] items-center  mx-auto custom-m:px-16 px-m'>
 
 
                     <div className='flex justify-between gap-10 items-center'>

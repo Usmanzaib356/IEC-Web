@@ -1,10 +1,9 @@
-import React from 'react'
 
 function Month() {
     return (
         <>
-        <section className='w-full bg-[#EFEFFF]'>
-             <div className=' max-w-[1280px] mx-auto py-5 '>
+        <section className='w-full '>
+             <div className='bg-[#EFEFFF] max-w-[1440px] mx-auto py-5 '>
         <div className='w-5/6 mx-auto'>
             <div>
                 <h3 className='md:text-2xl py-1  md:py-4 lg:text-[32px] font-bold'>IEC Apprenticeship Journey</h3>

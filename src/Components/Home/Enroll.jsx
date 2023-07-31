@@ -4,7 +4,7 @@ function Enroll() {
     <>
        <section className='w-full bg-[#FFFFFF] custom-m:py-16 custom-w:py-8'>
          
-         <div className='max-w-[1280px] mx-auto px-m custom-m:px-16'>
+         <div className='max-w-[1440px] mx-auto px-m custom-m:px-16'>
               
 
 
