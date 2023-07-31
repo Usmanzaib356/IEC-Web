@@ -1,4 +1,4 @@
-import React from 'react'
+
 import home9 from './image/home9.png'
 function Companies() {
     return (

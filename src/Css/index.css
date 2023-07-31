@@ -82,7 +82,7 @@ html {
 .border-container-com::before {
   content: "";
   position: absolute;
-  top: 25px;
+  top: 0px;
   left: 0;
   
   height: 30%;
@@ -93,12 +93,36 @@ html {
 .border-container-com::after {
   content: "";
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 0%;
   
-  height: 65%;
+  height: 80%;
   border-left: 1px dashed #155289    ;
   z-index: 1; 
 }
+
+
+
+.border-cs {
+  position: relative;
+  z-index : 1;
+  
+}
+
+.border-cs:before {
+  content : "";
+  position: absolute;
+  left    : 0%;
+  bottom  : 0;
+  height: 100%;
+  width   : 30%;  /* or 100px */
+  border-bottom:15px solid #E0E0E0;
+  border-top:15px solid #E0E0E0;
+  border-left: 15px solid #E0E0E0;
+  border-radius:  10% 0% 0% 10%;
+}
+
+
+
 
 /* Home css End */

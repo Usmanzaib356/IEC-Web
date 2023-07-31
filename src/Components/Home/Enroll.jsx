@@ -1,4 +1,3 @@
-import React from 'react'
 import home4 from "./image/home4.svg"
 function Enroll() {
   return (
@@ -36,8 +35,8 @@ function Enroll() {
                   <img src={home4} alt=""  />
                   </div>
 
-                <h3 className='py-3 fz-20-Iec fz-14-m-featured'>Criteria</h3>
-                <p className='fz-14-h fz-12-m-featured '>Unemployed graduate with basic computer literacy and ability to comprehend English.</p>
+                <h3 className='py-3 fz-20-Iec fz-14-m-featured'>Registration</h3>
+                <p className='fz-14-h fz-12-m-featured '>Signup on the IEC website to check eligibility and receive online test.</p>
                 <p></p>
                 </div>
 
@@ -48,8 +47,8 @@ function Enroll() {
                   <img src={home4} alt=""  />
                   </div>
 
-                <h3 className='py-3 fz-20-Iec fz-14-m-featured'>Criteria</h3>
-                <p className='fz-14-h fz-12-m-featured '>Unemployed graduate with basic computer literacy and ability to comprehend English.</p>
+                <h3 className='py-3 fz-20-Iec fz-14-m-featured'>Enrollment</h3>
+                <p className='fz-14-h fz-12-m-featured '>Finalize course to get access to LMS, instructors and IEC community.</p>
                 <p></p>
                 </div>
                 <div className=' custom-m:w-[17rem] custom-w:w-[full]   text-center
@@ -59,8 +58,8 @@ function Enroll() {
                   <img src={home4} alt=""  />
                   </div>
 
-                <h3 className='py-3 fz-20-Iec fz-14-m-featured'>Criteria</h3>
-                <p className='fz-14-h fz-12-m-featured '>Unemployed graduate with basic computer literacy and ability to comprehend English.</p>
+                <h3 className='py-3 fz-20-Iec fz-14-m-featured'>Screening</h3>
+                <p className='fz-14-h fz-12-m-featured '>Attend orientation and clear final interview to start demo classes.</p>
                 <p></p>
                 </div>
                 </div>

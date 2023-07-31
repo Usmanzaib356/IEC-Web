@@ -1,7 +1,8 @@
-import React from 'react'
-import Hero from './Hero'
+
+import Main from './Main'
+import Main3 from './Main3'
 import Program from './Program'
-import Featured from './Featured'
+// import Featured from './Featured'
 import IECapprentice from './IECapprentice'
 import Enroll from './Enroll'
 import Month from './Month'
@@ -13,9 +14,10 @@ import Team from './Team'
 function Home() {
   return (
     <>
-     {/* <Hero></Hero> */}
+     <Main/>
      <Program></Program>
-     <Featured></Featured>
+     <Main3/>
+     {/* <Featured></Featured> */}
      <IECapprentice></IECapprentice>
      <Month></Month>
      <Enroll></Enroll>

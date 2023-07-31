@@ -1,5 +1,5 @@
-import React from 'react'
-import home10 from "./image/home10.png"
+// import React from 'react'
+// import home10 from "./image/home10.png"
 import team from "./image/team.png"
 function Team() {
   return (
