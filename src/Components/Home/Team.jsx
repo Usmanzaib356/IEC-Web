@@ -9,7 +9,7 @@ function Team() {
            
      
               <div className='flex items-center justify-center team-section-wrap gap-10' >
-                  <div className='w-[100%] flex gap-3 justify-center items-center display-none-m'>
+                  <div className='hidden  w-[100%]  lg:flex gap-3 justify-center items-center '>
                      
                      <div className=''>
                         <img src={team} alt=""  />

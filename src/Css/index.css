@@ -103,24 +103,33 @@ html {
 
 
 
-.border-cs {
+/* .border-cs {
   position: relative;
   z-index : 1;
   
-}
+} */
 
-.border-cs:before {
+/* .border-cs:before {
   content : "";
   position: absolute;
   left    : 0%;
   bottom  : 0;
   height: 100%;
   width   : 30%;  /* or 100px */
-  border-bottom:15px solid #E0E0E0;
+  /* border-bottom:15px solid #E0E0E0;
   border-top:15px solid #E0E0E0;
   border-left: 15px solid #E0E0E0;
-  border-radius:  10% 0% 0% 10%;
+  border-radius:  10% 0% 0% 10%; */
+/* } */
+
+
+.striped-border{
+  border: 10px solid;
+border-image: linear-gradient(to right, #E0E0E0 0%,#E0E0E0 20%,#EFEFFF 20%,#EFEFFF ) 1 stretch repeat; /* W3C */
+border-radius: 15%;
+  
 }
+
 
 
 
