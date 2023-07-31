@@ -4,7 +4,7 @@ function Month() {
         <>
         <section className='w-full '>
              <div className='bg-[#EFEFFF] max-w-[1440px] mx-auto py-5 '>
-        <div className='w-5/6 mx-auto'>
+        <div className='w-4/5 mx-auto'>
             <div>
                 <h3 className='md:text-2xl py-1  md:py-4 lg:text-[32px] font-bold'>IEC Apprenticeship Journey</h3>
                 <p className='md:w-3/4 py-2 md:py-0 text-xs md:text-base md:font-medium'>Embark on an extraordinary IEC Apprenticeship journey, where you&apos;ll surpass average tech talent, demonstrating exceptional performance and industry-relevant expertise.</p>

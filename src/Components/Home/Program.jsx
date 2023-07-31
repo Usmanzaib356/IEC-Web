@@ -4,9 +4,9 @@ function Program() {
   return (
     <>
       <section className=' mt-[130px] md:mt-[50px] lg:mt-0 md:pt-1 lg:pt-0 bg-[#FFFFFF] w-full  mx-auto'>
-        <div className='w-5/6 mx-auto   max-w-[1440px]    '>
+        <div className=' mx-auto   max-w-[1440px]    '>
 
-          <div className='  flex justify-between gap-20 items-center  flex-wrap-p-secton'>
+          <div className='w-5/6 mx-auto  flex justify-between gap-20 items-center  flex-wrap-p-secton'>
 
 
 
